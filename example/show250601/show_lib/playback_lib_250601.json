@@ -1,0 +1,14 @@
+[
+    {
+        "name":"cross",
+        "alias":"cro",
+        "description":"cross with color in multiple lights",
+        "file":"cross_back_01.tw"
+    },
+    {
+        "name":"host",
+        "alias":"host",
+        "description":"host light",
+        "file":"host_01.tw"
+    }
+]

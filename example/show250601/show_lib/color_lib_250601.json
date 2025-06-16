@@ -1,0 +1,23 @@
+[
+    {
+        "color":"#ff0000",
+        "amber":"125",
+        "white":"0",
+        "alias":"red_a",
+        "description":"red color with amber"
+    },
+    {
+        "color":[0,255,0],
+        "amber":"125",
+        "white":"0",
+        "alias":"green_a",
+        "description":"green color with amber"
+    },
+    {
+        "color":"#0000ff",
+        "amber":"125",
+        "white":"0",
+        "alias":"blue_a",
+        "description":"blue color with amber"
+    }
+]

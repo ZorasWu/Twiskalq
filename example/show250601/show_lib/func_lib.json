@@ -1,0 +1,8 @@
+[
+    {
+        "name":"wave1",
+        "alias":"wave1",
+        "description":"sine wave function",
+        "func":"sin(x)"
+    }
+]

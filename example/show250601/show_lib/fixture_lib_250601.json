@@ -1,0 +1,84 @@
+[
+    {
+        "enable_list":[
+            {"PAR_4W54":1},
+            {"PAR_3W54":0},
+            {"COB":0},
+            {"FOG_S":0},
+            {"FOG_XL":1}
+        ]
+    },
+    {
+        "id": 0,
+        "fixture": "NCUART_PAR_4W54",
+        "manufacturer": "NCUART",
+        "type": "LED_PAR",
+        "alias": "PAR_4W54",
+        "channel_number": 8,
+        "channels": [
+            {"id": 0, "name": "dimmer", "min": 0, "max": 255, "type": "dimmer"},
+            {"id": 1, "name": "r", "min": 0, "max": 255,"type": "color"},
+            {"id": 2, "name": "g", "min": 0, "max": 255, "type": "color"},
+            {"id": 3, "name": "b", "min": 0, "max": 255, "type": "color"},
+            {"id": 4, "name": "amber", "min": 0, "max": 255, "type": "color"},
+            {"id": 5, "name": "strobe", "min": 0, "max": 255, "type": "strobe"},
+            {"id": 6, "name": "function", "min": 0, "max": 255, "type": "function"},
+            {"id": 7, "name": "function speed", "min": 0, "max": 255, "type": "func_speed"}
+        ]
+    },
+    {
+        "id": 1,
+        "fixture": "NCUART_PAR_3W54",
+        "manufacturer": "NCUART",
+        "type": "LED_PAR",
+        "alias": "PAR_3W54",
+        "channel_number": 7,
+        "channels": [
+            {"id": 0, "name": "dimmer", "min": 0, "max": 255, "type": "dimmer"},
+            {"id": 1, "name": "r", "min": 0, "max": 255, "type": "color"},
+            {"id": 2, "name": "g", "min": 0, "max": 255, "type": "color"},
+            {"id": 3, "name": "b", "min": 0, "max": 255, "type": "color"},
+            {"id": 4, "name": "strobe", "min": 0, "max": 255, "type": "strobe"},
+            {"id": 5, "name": "function", "min": 0, "max": 255, "type": "function"},
+            {"id": 6, "name": "function speed", "min": 0, "max": 255, "type": "func_speed"}
+        ]
+    },
+    {
+        "id": 2,
+        "fixture": "NCUART_COB",
+        "manufacturer": "NCUART",
+        "type": "COB",
+        "alias": "COB",
+        "channel_number": 6,
+        "channels": [
+            {"id": 0, "name": "dimmer", "min": 0, "max": 255,"type":"dimmer"},
+            {"id": 1, "name": "strobe", "min": 0, "max": 255,"type":"strobe"},
+            {"id": 2, "name": "function", "min": 0, "max": 255, "type": "function"},
+            {"id": 3, "name": "function speed", "min": 0, "max": 255,"type":"func_speed"},
+            {"id": 4, "name": "amber", "min": 0, "max": 255, "type": "color"},
+            {"id": 5, "name": "white", "min": 0, "max": 255, "type": "color"}
+        ]
+    },
+    {
+        "id": 3,
+        "fixture": "NCUART_FOG_SMALL",
+        "manufacturer": "NCUART",
+        "type": "FOG",
+        "alias": "FOG_S",
+        "channel_number": 1,
+        "channels": [
+            {"id": 0, "name": "dimmer", "min": 0, "max": 1}
+        ]
+    },
+    {
+        "id": 4,
+        "fixture": "NCUART_FOG_XLARGE",
+        "manufacturer": "NCUART",
+        "type": "FOG",
+        "alias": "FOG_XL",
+        "channel_number": 1,
+        "channels": [
+            {"id": 0, "name": "dimmer", "min": 0, "max": 1}
+        ]
+    }
+]
