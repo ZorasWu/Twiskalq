@@ -18,9 +18,9 @@ Levels = {
     "GENE": 2,
     "LEX_INFO": 3,
     "CUE_PARSER": 4,
-    "CONS": 5,
+    "CUE_CONS": 5,
     "SHOW_PARSER": 6,
-
+    "SHOW_CONS": 7,
 }
 
 
@@ -55,7 +55,7 @@ def logger_enable(log_file_path=None):
         if log_file_path is None:
             log_file_path = get_default_log_file()
         file_handler = logging.FileHandler(log_file_path,mode='w',encoding='utf-8')
-        formatter = logging.Formatter('%(asctime)s - %(levelname)-8s - %(message)s - from %(funcName)s:%(lineno)d')
+        formatter = logging.Formatter('%(asctime)s - %(levelname)-9s - %(message)s - from %(funcName)s:%(lineno)d')
         file_handler.setFormatter(formatter)
         _my_logger.addHandler(file_handler)
         _enable_logging = True

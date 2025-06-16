@@ -28,9 +28,9 @@ class CueParser:
     def consume(self, expected_type=None, expected_value=None):
         token = self.current_token()
         if token.type == 'NEWLINE':
-            logger.cons(f"\t\t\t Consume ('NEWLINE','\\n') at pos {self.pos}")
+            logger.cue_cons(f"\t\t\t Consume ('NEWLINE','\\n') at pos {self.pos}")
         else:
-            logger.cons(f"\t\t\t Consume ('{token.type}','{token.value}') at pos {self.pos}")
+            logger.cue_cons(f"\t\t\t Consume ('{token.type}','{token.value}') at pos {self.pos}")
         if not token:
             logger.error(f"Unexpected end of input at pos {self.pos}")
             raise ValueError("Unexpected end of input")
