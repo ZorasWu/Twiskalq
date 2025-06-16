@@ -1,0 +1,23 @@
+SETTING "setting"
+PLAYBACK "playback_lib_250601"
+
+SHOW 1 START
+    CUE {
+        IN BPM, RATE, LIGHT
+
+        FUNC wave1(x) = sin(x)
+
+        INTERVAL 4
+
+        DIMMER{
+            INTERVAL[1-4]{
+                LIGHT.L DIMMER func wave1 from 0 to PI
+                LIGHT.R DIMMER func wave1 from 0 to PI
+            }
+        }
+    } CUE END
+
+    WAIT 4 beats
+
+    CUE cross_back_01(120, RATE=2, LIGHT=FACE.ALL) CUE END
+SHOW END

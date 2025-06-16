@@ -1,0 +1,61 @@
+# Declare all the libraries you would use in the show
+LIBS [
+    "color_lib_250601",
+    "fixture_lib_250601",
+    "func_lib",
+    "playback_lib_250601"
+]
+
+# Declare all the light you use
+# FIXTURE <fixture_type> <number_of_lights> [<alias_of_lights>]
+
+FIXTURE PAR_4W54 8 ["A","B","C","D","E","F","G","H"] 
+FIXTURE FOG_XL 2 ["FOG_L","FOG_R"]
+
+# Patch part
+# PATCH{
+#   {UNIVERSE:<universe>}
+#   <alias_of_light>:<address>
+# }
+
+PATCH {
+    {
+        "UNIVERSE": "A",
+        "PATCHES": {
+            "A": 1,
+            "B": 9,
+            "C": 17,
+            "D": 25,
+            "E": 33,
+            "F": 41,
+            "G": 48,
+            "H": 57,
+        }
+    },
+    {
+        "UNIVERSE": "B",
+        "PATCHES": {
+            "FOG_L": 250,
+            "FOG_R": 251
+        }
+    }
+}
+
+# Making GROUPs for your lights
+# GROUP < <group_type> > <group_name> [<lights_in_group>]
+# group_types:
+#   All types below can use <group_name>.ALL to access all the lights in the group.
+#   <LR> for left and right. Use <group_name>.L/R to access the left/right half of the lights in the group
+#        if you use <LR>, the number of lights in group must be even
+#        group1.L = ["A","B","C"]
+#        group1.R = ["D","E","F"]
+#   <OE> for odd and even. Use <group_name>.O/E to access the odd/even lights in the group
+#        for example: GROUP <OE> group1 ["A","B","C","D","E","F"]
+#        group1.O = ["A","C","E"]
+#        group1.E = ["B","D","F"]
+#        if the "F" light is removed, ["A","C","E"] would be odd lights, and the rest would be even lights.
+#   You can choose multiple types to group your lights, just note it as <type1,type2...>
+
+GROUP FOG ["FOG_L","FOG_R"]
+GROUP <LR> FACE ["A","B"]
+GROUP <OE,LR> BACK ["C","D","E","F","G","H"]
