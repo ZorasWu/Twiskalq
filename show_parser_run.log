@@ -1,0 +1,140 @@
+2025-06-16 22:19:56,232 - INFO      - =======================finished lexing, got 86 tokens=========================== - from <module>:246
+2025-06-16 22:19:56,232 - INFO      - Parsing 'SETTING' block - from parse_setting:66
+2025-06-16 22:19:56,232 - SHOW_CONS - 			 Consume ('SETTING','SETTING') at pos 0 - from <module>:248
+2025-06-16 22:19:56,232 - SHOW_CONS - 			 Consume ('STRING','"setting"') at pos 1 - from <module>:248
+2025-06-16 22:19:56,232 - INFO      - End of 'SETTING' block - from parse_setting:69
+2025-06-16 22:19:56,232 - INFO      - Parsing 'PLAYBACK' block - from parse_playback:73
+2025-06-16 22:19:56,232 - SHOW_CONS - 			 Consume ('PLAYBACK','PLAYBACK') at pos 2 - from <module>:248
+2025-06-16 22:19:56,232 - SHOW_CONS - 			 Consume ('STRING','"playback_lib_250601"') at pos 3 - from <module>:248
+2025-06-16 22:19:56,232 - INFO      - End of 'PLAYBACK' block - from parse_playback:76
+2025-06-16 22:19:56,232 - INFO      - Parsing 'SHOW' block - from parse_show_block:80
+2025-06-16 22:19:56,233 - SHOW_CONS - 			 Consume ('SHOW','SHOW') at pos 4 - from <module>:248
+2025-06-16 22:19:56,233 - SHOW_CONS - 			 Consume ('NUMBER','1') at pos 5 - from <module>:248
+2025-06-16 22:19:56,233 - SHOW_CONS - 			 Consume ('START','START') at pos 6 - from <module>:248
+2025-06-16 22:19:56,233 - INFO      - Parsing 'SHOW' body - from parse_show_body:91
+2025-06-16 22:19:56,233 - INFO      - detect 'CUE' command - from parse_show_body:101
+2025-06-16 22:19:56,233 - INFO      - Parsing 'CUE' call - from parse_cue_call:117
+2025-06-16 22:19:56,233 - SHOW_CONS - 			 Consume ('CUE','CUE') at pos 7 - from <module>:248
+2025-06-16 22:19:56,233 - INFO      - Parsing inline 'CUE' block - from parse_cue_call:126
+2025-06-16 22:19:56,233 - INFO      - Starting parse with inline=True - from parse:47
+2025-06-16 22:19:56,233 - DEBUG     - Parsing inline 'CUE' block - from parse:51
+2025-06-16 22:19:56,233 - INFO      - Parsing 'IN' block - from parse_in:106
+2025-06-16 22:19:56,233 - DEBUG     - IN params: ['BPM', 'RATE', 'LIGHT'] - from parse_in:116
+2025-06-16 22:19:56,233 - INFO      - End of 'IN' block - from parse_in:117
+2025-06-16 22:19:56,233 - INFO      - Parsing 'FUNC' block - from parse_func:121
+2025-06-16 22:19:56,233 - DEBUG     - Function name: wave1 - from parse_func:124
+2025-06-16 22:19:56,233 - DEBUG     - Function argument: x - from parse_func:127
+2025-06-16 22:19:56,233 - DEBUG     - Get token ('INTERVAL','INTERVAL')end function block - from parse_func:135
+2025-06-16 22:19:56,233 - DEBUG     - Function expression: 'sin(x)' - from parse_func:140
+2025-06-16 22:19:56,233 - INFO      - Building function with sympy: 'sin(x)' - from build_func_with_sympy:146
+2025-06-16 22:19:56,243 - INFO      - Function 'sin(x)' built successfully - from build_func_with_sympy:165
+2025-06-16 22:19:56,243 - INFO      - Function 'wave1' parsed successfully - from parse_func:142
+2025-06-16 22:19:56,243 - INFO      - Parsing 'INTERVAL' block - from parse_interval:170
+2025-06-16 22:19:56,243 - DEBUG     - Interval number: 4 - from parse_interval:172
+2025-06-16 22:19:56,243 - INFO      - End of 'INTERVAL' block - from parse_interval:173
+2025-06-16 22:19:56,244 - INFO      - Parsing 'DIMMER' block - from parse_command_block:177
+2025-06-16 22:19:56,244 - INFO      - Parsing 'INTERVAL[...]' block - from parse_interval_block:213
+2025-06-16 22:19:56,244 - DEBUG     - Interval range: 1-4 - from parse_interval_block:221
+2025-06-16 22:19:56,244 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-16 22:19:56,244 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=15, column=1) - from parse_command_line:246
+2025-06-16 22:19:56,244 - DEBUG     - Command line items: [] - from parse_command_line:255
+2025-06-16 22:19:56,244 - DEBUG     - Add command: ('cmd', '') - from parse_interval_block:235
+2025-06-16 22:19:56,244 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-16 22:19:56,244 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=16, column=1) - from parse_command_line:246
+2025-06-16 22:19:56,244 - DEBUG     - Command line items: ['LIGHT', '.', 'L', 'DIMMER', 'func', 'wave1', 'from', '0', 'to', 'PI'] - from parse_command_line:255
+2025-06-16 22:19:56,244 - DEBUG     - Add command: ('cmd', 'LIGHT . L DIMMER func wave1 from 0 to PI') - from parse_interval_block:235
+2025-06-16 22:19:56,244 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-16 22:19:56,244 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=17, column=1) - from parse_command_line:246
+2025-06-16 22:19:56,244 - DEBUG     - Command line items: ['LIGHT', '.', 'R', 'DIMMER', 'func', 'wave1', 'from', '0', 'to', 'PI'] - from parse_command_line:255
+2025-06-16 22:19:56,244 - DEBUG     - Add command: ('cmd', 'LIGHT . R DIMMER func wave1 from 0 to PI') - from parse_interval_block:235
+2025-06-16 22:19:56,244 - INFO      - End of 'INTERVAL[1-4]' block with commands: [('cmd', ''), ('cmd', 'LIGHT . L DIMMER func wave1 from 0 to PI'), ('cmd', 'LIGHT . R DIMMER func wave1 from 0 to PI')] - from parse_interval_block:236
+2025-06-16 22:19:56,244 - DEBUG     - Parsed interval block INTERVAL[1-4] with cmds [('cmd', ''), ('cmd', 'LIGHT . L DIMMER func wave1 from 0 to PI'), ('cmd', 'LIGHT . R DIMMER func wave1 from 0 to PI')] - from parse_command_block:196
+2025-06-16 22:19:56,244 - INFO      - End of 'DIMMER' block with content: {'INTERVAL[1-4]': [('cmd', ''), ('cmd', 'LIGHT . L DIMMER func wave1 from 0 to PI'), ('cmd', 'LIGHT . R DIMMER func wave1 from 0 to PI')]} - from parse_command_block:209
+2025-06-16 22:19:56,244 - DEBUG     - Detect 'RBRACE' and end inline CUE block - from parse_block:79
+2025-06-16 22:19:56,244 - INFO      - End of inline 'CUE' block - from parse:57
+2025-06-16 22:19:56,245 - INFO      - End of inline 'CUE' block - from parse_cue_call:132
+2025-06-16 22:19:56,245 - INFO      - Cue AST: {'CUE': {'name': None, 'body': {'IN': ['BPM', 'RATE', 'LIGHT'], 'FUNC': {'wave1': <function _lambdifygenerated at 0x000001EDF8C51BC0>}, 'INTERVAL': 4, 'DIMMER': {'INTERVAL[1-4]': [('cmd', ''), ('cmd', 'LIGHT . L DIMMER func wave1 from 0 to PI'), ('cmd', 'LIGHT . R DIMMER func wave1 from 0 to PI')]}}}} - from parse_cue_call:133
+2025-06-16 22:19:56,245 - INFO      - detect 'WAIT' command - from parse_show_body:105
+2025-06-16 22:19:56,245 - INFO      - Parsing 'WAIT' command - from parse_wait:206
+2025-06-16 22:19:56,245 - SHOW_CONS - 			 Consume ('WAIT','WAIT') at pos 64 - from <module>:248
+2025-06-16 22:19:56,245 - SHOW_CONS - 			 Consume ('NUMBER','4') at pos 65 - from <module>:248
+2025-06-16 22:19:56,245 - SHOW_CONS - 			 Consume ('ID','beats') at pos 66 - from <module>:248
+2025-06-16 22:19:56,245 - INFO      - Parsed 'WAIT' command: 4.0 beats - from parse_wait:213
+2025-06-16 22:19:56,245 - INFO      - detect 'CUE' command - from parse_show_body:101
+2025-06-16 22:19:56,245 - INFO      - Parsing 'CUE' call - from parse_cue_call:117
+2025-06-16 22:19:56,245 - SHOW_CONS - 			 Consume ('CUE','CUE') at pos 67 - from <module>:248
+2025-06-16 22:19:56,245 - INFO      - Parsing 'CUE' call - from parse_cue_call:136
+2025-06-16 22:19:56,245 - SHOW_CONS - 			 Consume ('ID','cross_back_01') at pos 68 - from <module>:248
+2025-06-16 22:19:56,245 - INFO      - Parsing 'CUE' parameters - from parse_cue_params:160
+2025-06-16 22:19:56,245 - SHOW_CONS - 			 Consume ('LPAREN','(') at pos 69 - from <module>:248
+2025-06-16 22:19:56,245 - INFO      - Parsed literal parameter: 120 - from parse_cue_params:189
+2025-06-16 22:19:56,245 - SHOW_CONS - 			 Consume ('NUMBER','120') at pos 70 - from <module>:248
+2025-06-16 22:19:56,245 - SHOW_CONS - 			 Consume ('COMMA',',') at pos 71 - from <module>:248
+2025-06-16 22:19:56,245 - INFO      - Parsing identifier - from parse_identifier:149
+2025-06-16 22:19:56,245 - SHOW_CONS - 			 Consume ('ID','RATE') at pos 72 - from <module>:248
+2025-06-16 22:19:56,245 - INFO      - Parsed identifier: RATE - from parse_identifier:156
+2025-06-16 22:19:56,245 - SHOW_CONS - 			 Consume ('OP','=') at pos 73 - from <module>:248
+2025-06-16 22:19:56,246 - SHOW_CONS - 			 Consume ('NUMBER','2') at pos 74 - from <module>:248
+2025-06-16 22:19:56,246 - INFO      - Parsed parameter: RATE = 2 - from parse_cue_params:179
+2025-06-16 22:19:56,246 - SHOW_CONS - 			 Consume ('COMMA',',') at pos 75 - from <module>:248
+2025-06-16 22:19:56,246 - INFO      - Parsing identifier - from parse_identifier:149
+2025-06-16 22:19:56,246 - SHOW_CONS - 			 Consume ('ID','LIGHT') at pos 76 - from <module>:248
+2025-06-16 22:19:56,246 - INFO      - Parsed identifier: LIGHT - from parse_identifier:156
+2025-06-16 22:19:56,246 - SHOW_CONS - 			 Consume ('OP','=') at pos 77 - from <module>:248
+2025-06-16 22:19:56,246 - INFO      - Parsing identifier - from parse_identifier:149
+2025-06-16 22:19:56,246 - SHOW_CONS - 			 Consume ('ID','FACE') at pos 78 - from <module>:248
+2025-06-16 22:19:56,246 - SHOW_CONS - 			 Consume ('DOT','.') at pos 79 - from <module>:248
+2025-06-16 22:19:56,246 - SHOW_CONS - 			 Consume ('ID','ALL') at pos 80 - from <module>:248
+2025-06-16 22:19:56,246 - INFO      - Parsed identifier: FACE.ALL - from parse_identifier:156
+2025-06-16 22:19:56,246 - INFO      - Parsed parameter: LIGHT = FACE.ALL - from parse_cue_params:179
+2025-06-16 22:19:56,246 - SHOW_CONS - 			 Consume ('RPAREN',')') at pos 81 - from <module>:248
+2025-06-16 22:19:56,246 - INFO      - Parsed 'CUE' parameters: ['120', ('RATE', '2'), ('LIGHT', 'FACE.ALL')] - from parse_cue_params:202
+2025-06-16 22:19:56,246 - SHOW_CONS - 			 Consume ('CUE','CUE') at pos 82 - from <module>:248
+2025-06-16 22:19:56,246 - SHOW_CONS - 			 Consume ('END','END') at pos 83 - from <module>:248
+2025-06-16 22:19:56,246 - INFO      - End of 'CUE' call - from parse_cue_call:144
+2025-06-16 22:19:56,246 - INFO      - End of 'SHOW' body - from parse_show_body:98
+2025-06-16 22:19:56,246 - SHOW_CONS - 			 Consume ('SHOW','SHOW') at pos 84 - from <module>:248
+2025-06-16 22:19:56,246 - SHOW_CONS - 			 Consume ('END','END') at pos 85 - from <module>:248
+2025-06-16 22:19:56,246 - INFO      - End of 'SHOW' block - from parse_show_block:87
+2025-06-16 22:19:56,252 - INFO      - Parsing completed successfully - from <module>:252
+2025-06-16 22:19:56,252 - INFO      - Final AST: - from <module>:253
+2025-06-16 22:19:56,253 - INFO      - {'PLAYBACK': 'playback_lib_250601',
+ 'SETTING': 'setting',
+ 'SHOWS': [{'body': [{'data': {'CUE': {'body': {'DIMMER': {'INTERVAL[1-4]': [('cmd',
+                                                                              ''),
+                                                                             ('cmd',
+                                                                              'LIGHT '
+                                                                              '. '
+                                                                              'L '
+                                                                              'DIMMER '
+                                                                              'func '
+                                                                              'wave1 '
+                                                                              'from '
+                                                                              '0 '
+                                                                              'to '
+                                                                              'PI'),
+                                                                             ('cmd',
+                                                                              'LIGHT '
+                                                                              '. '
+                                                                              'R '
+                                                                              'DIMMER '
+                                                                              'func '
+                                                                              'wave1 '
+                                                                              'from '
+                                                                              '0 '
+                                                                              'to '
+                                                                              'PI')]},
+                                                'FUNC': {'wave1': <function _lambdifygenerated at 0x000001EDF8C51BC0>},
+                                                'IN': ['BPM', 'RATE', 'LIGHT'],
+                                                'INTERVAL': 4},
+                                       'name': None}},
+                      'type': 'CUE'},
+                     {'data': {'duration': 4.0, 'unit': 'beats'},
+                      'type': 'WAIT'},
+                     {'data': {'body': None,
+                               'name': 'cross_back_01',
+                               'params': ['120',
+                                          ('RATE', '2'),
+                                          ('LIGHT', 'FACE.ALL')]},
+                      'type': 'CUE'}],
+            'number': 1}]} - from <module>:254

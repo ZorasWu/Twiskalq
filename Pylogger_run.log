@@ -1,0 +1,3 @@
+2025-06-16 19:37:43,901 - INFO - This is an info message. - from <module>:83
+2025-06-16 19:37:43,901 - DEBUG - This is a debug message. - from <module>:84
+2025-06-16 19:37:43,902 - ERROR - This is an error message. - from <module>:85

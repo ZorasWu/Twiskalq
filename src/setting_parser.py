@@ -154,7 +154,41 @@ if __name__ == "__main__":
     from lexer import Lexer  # 確保 lexer.py 在同目錄下且已實作
 
     sample_text = '''
+LIBS [
+    "color_lib_250601",
+    "fixture_lib_250601",
+    "func_lib",
+    "playback_lib_250601"
+]
 
+FIXTURE PAR_4W54 8 ["A","B","C","D","E","F","G","H"] 
+FIXTURE FOG_XL 2 ["FOG_L","FOG_R"]
+
+PATCH {
+    {
+        "UNIVERSE": "A",
+        "PATCHES": {
+            "A": 1,
+            "B": 9,
+            "C": 17,
+            "D": 25,
+            "E": 33,
+            "F": 41,
+            "G": 48,
+            "H": 57,
+        }
+    },
+    {
+        "UNIVERSE": "B",
+        "PATCHES": {
+            "FOG_L": 250,
+            "FOG_R": 251
+        }
+    }
+}
+GROUP FOG ["FOG_L","FOG_R"]
+GROUP <LR> FACE ["A","B"]
+GROUP <OE,LR> BACK ["C","D","E","F","G","H"]
     '''
 
     lexer = Lexer(sample_text)

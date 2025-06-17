@@ -259,22 +259,10 @@ class CueParser:
 if __name__ == "__main__":
     sample_text = """
    CUE cross_back_01 START
-    # input BPM, BPM scale rate, lights
     IN BPM, RATE, LIGHT
-
-    # create functions
     FUNC wave2(x) = 1-sin(x)
-
-    # declare the number of INTERVAL, initially defined INTERVAL=1/(BPM*RATE)s
-    # so for a 4/4 music with 60 beats/min implies when BPM = 60 and RATE = 2
-    # an INTERVAL = the length of an eighth note
-    # and a bar have 8 INTERVALs
     INTERVAL 4
 
-    # DIMMER setting in INTERVAL[1-4] with gradually change in the value of two waves
-    # LIGHT.L would take the left 1/2 of the light array
-    # LIGHT.R would take another 1/2 of the light array
-    # LIGHT.ALL would take all lights in the light array
     DIMMER{
         INTERVAL[1-4]{
             LIGHT.L DIMMER func wave1 from 0 to PI
@@ -282,7 +270,6 @@ if __name__ == "__main__":
         }
     }
 
-    # COLOR setting in 4 INTERVALs
     COLOR{
         INTERVAL[1]{
             LIGHT.L COLOR value "red_a"
@@ -297,7 +284,6 @@ if __name__ == "__main__":
         }
     }
 
-    # STROBE settings
     STROBE{
         INTERVAL[1-2]{
             LIGHT.ALL STROBE value 0
@@ -306,13 +292,7 @@ if __name__ == "__main__":
             LIGHT.R STROBE value 255
         }
     }
-
-    # OTHERS deal with other unused parameter of all lights
-    # {bypass} means keep the previous values
-    # {off} means set all the parameters with minimum value
-    # {full} means set all the parameters with maximum value
     OTHERS{bypass}
-
 CUE END
     """
     from lexer import Lexer
@@ -320,7 +300,7 @@ CUE END
     lexer = Lexer(sample_text)
     tokens = list(lexer.generate_tokens())
     logger.info(f"=======================finished lexing, got {len(tokens)} tokens===========================")
-    logger.info(f"\n\tTokens:\n" + '\n'.join('\t' + line for line in pprint.pformat(tokens).splitlines())) if logger_showtoken else None
+    logger.info(f"\n\tTokens:\n" + '\n'.join('\t' + line for line in pprint.pformat(tokens).splitlines())) if logger_showtoken else logger.info("Tokens logging is disabled")
     parser = CueParser(tokens)
     result = parser.parse(inline=0)
 

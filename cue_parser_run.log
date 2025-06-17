@@ -1,0 +1,669 @@
+2025-06-17 22:22:38,632 - LEXER     - Skipping SKIP token: '   ' - from <module>:301
+2025-06-17 22:22:38,632 - LEXER     - Converting keyword 'CUE' to uppercase - from <module>:301
+2025-06-17 22:22:38,632 - GENE      - 	Generated token: Token(type='CUE', value='CUE', line=2, column=4) - from <module>:301
+2025-06-17 22:22:38,632 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,632 - GENE      - 	Generated token: Token(type='ID', value='cross_back_01', line=2, column=8) - from <module>:301
+2025-06-17 22:22:38,632 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,632 - LEXER     - Converting keyword 'START' to uppercase - from <module>:301
+2025-06-17 22:22:38,632 - GENE      - 	Generated token: Token(type='START', value='START', line=2, column=22) - from <module>:301
+2025-06-17 22:22:38,632 - LEXER     - Skipping SKIP token: '    ' - from <module>:301
+2025-06-17 22:22:38,633 - LEXER     - Converting keyword 'IN' to uppercase - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='IN', value='IN', line=3, column=5) - from <module>:301
+2025-06-17 22:22:38,633 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='ID', value='BPM', line=3, column=8) - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='COMMA', value=',', line=3, column=11) - from <module>:301
+2025-06-17 22:22:38,633 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='ID', value='RATE', line=3, column=13) - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='COMMA', value=',', line=3, column=17) - from <module>:301
+2025-06-17 22:22:38,633 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='ID', value='LIGHT', line=3, column=19) - from <module>:301
+2025-06-17 22:22:38,633 - LEXER     - Skipping SKIP token: '    ' - from <module>:301
+2025-06-17 22:22:38,633 - LEXER     - Converting keyword 'FUNC' to uppercase - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='FUNC', value='FUNC', line=4, column=5) - from <module>:301
+2025-06-17 22:22:38,633 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='ID', value='wave2', line=4, column=10) - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='LPAREN', value='(', line=4, column=15) - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='ID', value='x', line=4, column=16) - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='RPAREN', value=')', line=4, column=17) - from <module>:301
+2025-06-17 22:22:38,633 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='OP', value='=', line=4, column=19) - from <module>:301
+2025-06-17 22:22:38,633 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='NUMBER', value='1', line=4, column=21) - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='OP', value='-', line=4, column=22) - from <module>:301
+2025-06-17 22:22:38,633 - GENE      - 	Generated token: Token(type='ID', value='sin', line=4, column=23) - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='LPAREN', value='(', line=4, column=26) - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='ID', value='x', line=4, column=27) - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='RPAREN', value=')', line=4, column=28) - from <module>:301
+2025-06-17 22:22:38,634 - LEXER     - Skipping SKIP token: '    ' - from <module>:301
+2025-06-17 22:22:38,634 - LEXER     - Converting keyword 'INTERVAL' to uppercase - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='INTERVAL', value='INTERVAL', line=5, column=5) - from <module>:301
+2025-06-17 22:22:38,634 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='NUMBER', value='4', line=5, column=14) - from <module>:301
+2025-06-17 22:22:38,634 - LEXER     - Skipping SKIP token: '    ' - from <module>:301
+2025-06-17 22:22:38,634 - LEXER     - Converting keyword 'DIMMER' to uppercase - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='DIMMER', value='DIMMER', line=7, column=5) - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='LBRACE', value='{', line=7, column=11) - from <module>:301
+2025-06-17 22:22:38,634 - LEXER     - Enter block with LBRACE,detecting INTERVAL-like structure - from <module>:301
+2025-06-17 22:22:38,634 - LEXER     - Last tokens: [Token(type='LPAREN', value='(', line=4, column=26), Token(type='ID', value='x', line=4, column=27), Token(type='RPAREN', value=')', line=4, column=28), Token(type='INTERVAL', value='INTERVAL', line=5, column=5), Token(type='NUMBER', value='4', line=5, column=14), Token(type='DIMMER', value='DIMMER', line=7, column=5), Token(type='LBRACE', value='{', line=7, column=11)] - from <module>:301
+2025-06-17 22:22:38,634 - LEXER     - Found INTERVAL at position 3 - from <module>:301
+2025-06-17 22:22:38,634 - LEXER     - Not enough tokens after INTERVAL - from <module>:301
+2025-06-17 22:22:38,634 - LEXER     - Skipping SKIP token: '        ' - from <module>:301
+2025-06-17 22:22:38,634 - LEXER     - Converting keyword 'INTERVAL' to uppercase - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='INTERVAL', value='INTERVAL', line=8, column=9) - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='LSQUARE', value='[', line=8, column=17) - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='NUMBER', value='1', line=8, column=18) - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='OP', value='-', line=8, column=19) - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='NUMBER', value='4', line=8, column=20) - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='RSQUARE', value=']', line=8, column=21) - from <module>:301
+2025-06-17 22:22:38,634 - GENE      - 	Generated token: Token(type='LBRACE', value='{', line=8, column=22) - from <module>:301
+2025-06-17 22:22:38,634 - LEXER     - Enter block with LBRACE,detecting INTERVAL-like structure - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Last tokens: [Token(type='INTERVAL', value='INTERVAL', line=8, column=9), Token(type='LSQUARE', value='[', line=8, column=17), Token(type='NUMBER', value='1', line=8, column=18), Token(type='OP', value='-', line=8, column=19), Token(type='NUMBER', value='4', line=8, column=20), Token(type='RSQUARE', value=']', line=8, column=21), Token(type='LBRACE', value='{', line=8, column=22)] - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Found INTERVAL at position 0 - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Found range in INTERVAL at position 3 - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Found INTERVAL with range - from <module>:301
+2025-06-17 22:22:38,635 - LEX_INFO  - Start generating NEWLINE tokens - from <module>:301
+2025-06-17 22:22:38,635 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=9, column=1) - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Skipping SKIP token: '            ' - from <module>:301
+2025-06-17 22:22:38,635 - GENE      - 	Generated token: Token(type='ID', value='LIGHT', line=9, column=13) - from <module>:301
+2025-06-17 22:22:38,635 - GENE      - 	Generated token: Token(type='DOT', value='.', line=9, column=18) - from <module>:301
+2025-06-17 22:22:38,635 - GENE      - 	Generated token: Token(type='ID', value='L', line=9, column=19) - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Converting keyword 'DIMMER' to uppercase - from <module>:301
+2025-06-17 22:22:38,635 - GENE      - 	Generated token: Token(type='DIMMER', value='DIMMER', line=9, column=21) - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Converting keyword 'func' to uppercase - from <module>:301
+2025-06-17 22:22:38,635 - GENE      - 	Generated token: Token(type='FUNC', value='func', line=9, column=28) - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,635 - GENE      - 	Generated token: Token(type='ID', value='wave1', line=9, column=33) - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Converting keyword 'from' to uppercase - from <module>:301
+2025-06-17 22:22:38,635 - GENE      - 	Generated token: Token(type='FROM', value='from', line=9, column=39) - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,635 - GENE      - 	Generated token: Token(type='NUMBER', value='0', line=9, column=44) - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Converting keyword 'to' to uppercase - from <module>:301
+2025-06-17 22:22:38,635 - GENE      - 	Generated token: Token(type='TO', value='to', line=9, column=46) - from <module>:301
+2025-06-17 22:22:38,635 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='ID', value='PI', line=9, column=49) - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=10, column=1) - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Skipping SKIP token: '            ' - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='ID', value='LIGHT', line=10, column=13) - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='DOT', value='.', line=10, column=18) - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='ID', value='R', line=10, column=19) - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Converting keyword 'DIMMER' to uppercase - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='DIMMER', value='DIMMER', line=10, column=21) - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Converting keyword 'func' to uppercase - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='FUNC', value='func', line=10, column=28) - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='ID', value='wave2', line=10, column=33) - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Converting keyword 'from' to uppercase - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='FROM', value='from', line=10, column=39) - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='NUMBER', value='0', line=10, column=44) - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Converting keyword 'to' to uppercase - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='TO', value='to', line=10, column=46) - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='ID', value='PI', line=10, column=49) - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=11, column=1) - from <module>:301
+2025-06-17 22:22:38,636 - LEXER     - Skipping SKIP token: '        ' - from <module>:301
+2025-06-17 22:22:38,636 - GENE      - 	Generated token: Token(type='RBRACE', value='}', line=11, column=9) - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Detected RBRACE,detecting left braces - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - No more LBRACE tokens, setting keep_newline to False - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Skipping SKIP token: '    ' - from <module>:301
+2025-06-17 22:22:38,637 - GENE      - 	Generated token: Token(type='RBRACE', value='}', line=12, column=5) - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Detected RBRACE,detecting left braces - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - No more LBRACE tokens, setting keep_newline to False - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Skipping SKIP token: '    ' - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Converting keyword 'COLOR' to uppercase - from <module>:301
+2025-06-17 22:22:38,637 - GENE      - 	Generated token: Token(type='COLOR', value='COLOR', line=14, column=5) - from <module>:301
+2025-06-17 22:22:38,637 - GENE      - 	Generated token: Token(type='LBRACE', value='{', line=14, column=10) - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Enter block with LBRACE,detecting INTERVAL-like structure - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Last tokens: [Token(type='TO', value='to', line=10, column=46), Token(type='ID', value='PI', line=10, column=49), Token(type='NEWLINE', value='\n', line=11, column=1), Token(type='RBRACE', value='}', line=11, column=9), Token(type='RBRACE', value='}', line=12, column=5), Token(type='COLOR', value='COLOR', line=14, column=5), Token(type='LBRACE', value='{', line=14, column=10)] - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Skipping SKIP token: '        ' - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Converting keyword 'INTERVAL' to uppercase - from <module>:301
+2025-06-17 22:22:38,637 - GENE      - 	Generated token: Token(type='INTERVAL', value='INTERVAL', line=15, column=9) - from <module>:301
+2025-06-17 22:22:38,637 - GENE      - 	Generated token: Token(type='LSQUARE', value='[', line=15, column=17) - from <module>:301
+2025-06-17 22:22:38,637 - GENE      - 	Generated token: Token(type='NUMBER', value='1', line=15, column=18) - from <module>:301
+2025-06-17 22:22:38,637 - GENE      - 	Generated token: Token(type='RSQUARE', value=']', line=15, column=19) - from <module>:301
+2025-06-17 22:22:38,637 - GENE      - 	Generated token: Token(type='LBRACE', value='{', line=15, column=20) - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Enter block with LBRACE,detecting INTERVAL-like structure - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Last tokens: [Token(type='COLOR', value='COLOR', line=14, column=5), Token(type='LBRACE', value='{', line=14, column=10), Token(type='INTERVAL', value='INTERVAL', line=15, column=9), Token(type='LSQUARE', value='[', line=15, column=17), Token(type='NUMBER', value='1', line=15, column=18), Token(type='RSQUARE', value=']', line=15, column=19), Token(type='LBRACE', value='{', line=15, column=20)] - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Found INTERVAL at position 2 - from <module>:301
+2025-06-17 22:22:38,637 - LEXER     - Found simple INTERVAL without range - from <module>:301
+2025-06-17 22:22:38,637 - LEX_INFO  - Start generating NEWLINE tokens - from <module>:301
+2025-06-17 22:22:38,637 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=16, column=1) - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Skipping SKIP token: '            ' - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='ID', value='LIGHT', line=16, column=13) - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='DOT', value='.', line=16, column=18) - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='ID', value='L', line=16, column=19) - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Converting keyword 'COLOR' to uppercase - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='COLOR', value='COLOR', line=16, column=21) - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Converting keyword 'value' to uppercase - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='VALUE', value='value', line=16, column=27) - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='STRING', value='"red_a"', line=16, column=33) - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=17, column=1) - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Skipping SKIP token: '            ' - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='ID', value='LIGHT', line=17, column=13) - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='DOT', value='.', line=17, column=18) - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='ID', value='R', line=17, column=19) - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Converting keyword 'COLOR' to uppercase - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='COLOR', value='COLOR', line=17, column=21) - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Converting keyword 'value' to uppercase - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='VALUE', value='value', line=17, column=27) - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='STRING', value='"blue_a"', line=17, column=33) - from <module>:301
+2025-06-17 22:22:38,638 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=18, column=1) - from <module>:301
+2025-06-17 22:22:38,638 - LEXER     - Skipping SKIP token: '        ' - from <module>:301
+2025-06-17 22:22:38,639 - GENE      - 	Generated token: Token(type='RBRACE', value='}', line=18, column=9) - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - Detected RBRACE,detecting left braces - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - No more LBRACE tokens, setting keep_newline to False - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - Skipping SKIP token: '        ' - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - Converting keyword 'INTERVAL' to uppercase - from <module>:301
+2025-06-17 22:22:38,639 - GENE      - 	Generated token: Token(type='INTERVAL', value='INTERVAL', line=19, column=9) - from <module>:301
+2025-06-17 22:22:38,639 - GENE      - 	Generated token: Token(type='LSQUARE', value='[', line=19, column=17) - from <module>:301
+2025-06-17 22:22:38,639 - GENE      - 	Generated token: Token(type='NUMBER', value='2', line=19, column=18) - from <module>:301
+2025-06-17 22:22:38,639 - GENE      - 	Generated token: Token(type='RSQUARE', value=']', line=19, column=19) - from <module>:301
+2025-06-17 22:22:38,639 - GENE      - 	Generated token: Token(type='LBRACE', value='{', line=19, column=20) - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - Enter block with LBRACE,detecting INTERVAL-like structure - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - Last tokens: [Token(type='NEWLINE', value='\n', line=18, column=1), Token(type='RBRACE', value='}', line=18, column=9), Token(type='INTERVAL', value='INTERVAL', line=19, column=9), Token(type='LSQUARE', value='[', line=19, column=17), Token(type='NUMBER', value='2', line=19, column=18), Token(type='RSQUARE', value=']', line=19, column=19), Token(type='LBRACE', value='{', line=19, column=20)] - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - Found INTERVAL at position 2 - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - Found simple INTERVAL without range - from <module>:301
+2025-06-17 22:22:38,639 - LEX_INFO  - Start generating NEWLINE tokens - from <module>:301
+2025-06-17 22:22:38,639 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=20, column=1) - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - Skipping SKIP token: '            ' - from <module>:301
+2025-06-17 22:22:38,639 - GENE      - 	Generated token: Token(type='ID', value='LIGHT', line=20, column=13) - from <module>:301
+2025-06-17 22:22:38,639 - GENE      - 	Generated token: Token(type='DOT', value='.', line=20, column=18) - from <module>:301
+2025-06-17 22:22:38,639 - GENE      - 	Generated token: Token(type='ID', value='L', line=20, column=19) - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - Converting keyword 'COLOR' to uppercase - from <module>:301
+2025-06-17 22:22:38,639 - GENE      - 	Generated token: Token(type='COLOR', value='COLOR', line=20, column=21) - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,639 - LEXER     - Converting keyword 'value' to uppercase - from <module>:301
+2025-06-17 22:22:38,639 - GENE      - 	Generated token: Token(type='VALUE', value='value', line=20, column=27) - from <module>:301
+2025-06-17 22:22:38,640 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='STRING', value='"blue_a"', line=20, column=33) - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=21, column=1) - from <module>:301
+2025-06-17 22:22:38,640 - LEXER     - Skipping SKIP token: '            ' - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='ID', value='LIGHT', line=21, column=13) - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='DOT', value='.', line=21, column=18) - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='ID', value='R', line=21, column=19) - from <module>:301
+2025-06-17 22:22:38,640 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,640 - LEXER     - Converting keyword 'COLOR' to uppercase - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='COLOR', value='COLOR', line=21, column=21) - from <module>:301
+2025-06-17 22:22:38,640 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,640 - LEXER     - Converting keyword 'value' to uppercase - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='VALUE', value='value', line=21, column=27) - from <module>:301
+2025-06-17 22:22:38,640 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='STRING', value='"red_a"', line=21, column=33) - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=22, column=1) - from <module>:301
+2025-06-17 22:22:38,640 - LEXER     - Skipping SKIP token: '        ' - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='RBRACE', value='}', line=22, column=9) - from <module>:301
+2025-06-17 22:22:38,640 - LEXER     - Detected RBRACE,detecting left braces - from <module>:301
+2025-06-17 22:22:38,640 - LEXER     - Still have LBRACE tokens, keeping keep_newline True - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=23, column=1) - from <module>:301
+2025-06-17 22:22:38,640 - LEXER     - Skipping SKIP token: '        ' - from <module>:301
+2025-06-17 22:22:38,640 - LEXER     - Converting keyword 'INTERVAL' to uppercase - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='INTERVAL', value='INTERVAL', line=23, column=9) - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='LSQUARE', value='[', line=23, column=17) - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='NUMBER', value='3', line=23, column=18) - from <module>:301
+2025-06-17 22:22:38,640 - GENE      - 	Generated token: Token(type='OP', value='-', line=23, column=19) - from <module>:301
+2025-06-17 22:22:38,641 - GENE      - 	Generated token: Token(type='NUMBER', value='4', line=23, column=20) - from <module>:301
+2025-06-17 22:22:38,641 - GENE      - 	Generated token: Token(type='RSQUARE', value=']', line=23, column=21) - from <module>:301
+2025-06-17 22:22:38,641 - GENE      - 	Generated token: Token(type='LBRACE', value='{', line=23, column=22) - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Enter block with LBRACE,detecting INTERVAL-like structure - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Last tokens: [Token(type='INTERVAL', value='INTERVAL', line=23, column=9), Token(type='LSQUARE', value='[', line=23, column=17), Token(type='NUMBER', value='3', line=23, column=18), Token(type='OP', value='-', line=23, column=19), Token(type='NUMBER', value='4', line=23, column=20), Token(type='RSQUARE', value=']', line=23, column=21), Token(type='LBRACE', value='{', line=23, column=22)] - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Found INTERVAL at position 0 - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Found range in INTERVAL at position 3 - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Found INTERVAL with range - from <module>:301
+2025-06-17 22:22:38,641 - LEX_INFO  - Start generating NEWLINE tokens - from <module>:301
+2025-06-17 22:22:38,641 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=24, column=1) - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Skipping SKIP token: '            ' - from <module>:301
+2025-06-17 22:22:38,641 - GENE      - 	Generated token: Token(type='ID', value='LIGHT', line=24, column=13) - from <module>:301
+2025-06-17 22:22:38,641 - GENE      - 	Generated token: Token(type='DOT', value='.', line=24, column=18) - from <module>:301
+2025-06-17 22:22:38,641 - GENE      - 	Generated token: Token(type='ID', value='ALL', line=24, column=19) - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Converting keyword 'COLOR' to uppercase - from <module>:301
+2025-06-17 22:22:38,641 - GENE      - 	Generated token: Token(type='COLOR', value='COLOR', line=24, column=23) - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Converting keyword 'value' to uppercase - from <module>:301
+2025-06-17 22:22:38,641 - GENE      - 	Generated token: Token(type='VALUE', value='value', line=24, column=29) - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,641 - GENE      - 	Generated token: Token(type='STRING', value='"green_a"', line=24, column=35) - from <module>:301
+2025-06-17 22:22:38,641 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=25, column=1) - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Skipping SKIP token: '        ' - from <module>:301
+2025-06-17 22:22:38,641 - GENE      - 	Generated token: Token(type='RBRACE', value='}', line=25, column=9) - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Detected RBRACE,detecting left braces - from <module>:301
+2025-06-17 22:22:38,641 - LEXER     - Still have LBRACE tokens, keeping keep_newline True - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=26, column=1) - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Skipping SKIP token: '    ' - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='RBRACE', value='}', line=26, column=5) - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Detected RBRACE,detecting left braces - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Still have LBRACE tokens, keeping keep_newline True - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=27, column=1) - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=28, column=1) - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Skipping SKIP token: '    ' - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Converting keyword 'STROBE' to uppercase - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='STROBE', value='STROBE', line=28, column=5) - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='LBRACE', value='{', line=28, column=11) - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Enter block with LBRACE,detecting INTERVAL-like structure - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Last tokens: [Token(type='RBRACE', value='}', line=25, column=9), Token(type='NEWLINE', value='\n', line=26, column=1), Token(type='RBRACE', value='}', line=26, column=5), Token(type='NEWLINE', value='\n', line=27, column=1), Token(type='NEWLINE', value='\n', line=28, column=1), Token(type='STROBE', value='STROBE', line=28, column=5), Token(type='LBRACE', value='{', line=28, column=11)] - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=29, column=1) - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Skipping SKIP token: '        ' - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Converting keyword 'INTERVAL' to uppercase - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='INTERVAL', value='INTERVAL', line=29, column=9) - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='LSQUARE', value='[', line=29, column=17) - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='NUMBER', value='1', line=29, column=18) - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='OP', value='-', line=29, column=19) - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='NUMBER', value='2', line=29, column=20) - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='RSQUARE', value=']', line=29, column=21) - from <module>:301
+2025-06-17 22:22:38,642 - GENE      - 	Generated token: Token(type='LBRACE', value='{', line=29, column=22) - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Enter block with LBRACE,detecting INTERVAL-like structure - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Last tokens: [Token(type='INTERVAL', value='INTERVAL', line=29, column=9), Token(type='LSQUARE', value='[', line=29, column=17), Token(type='NUMBER', value='1', line=29, column=18), Token(type='OP', value='-', line=29, column=19), Token(type='NUMBER', value='2', line=29, column=20), Token(type='RSQUARE', value=']', line=29, column=21), Token(type='LBRACE', value='{', line=29, column=22)] - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Found INTERVAL at position 0 - from <module>:301
+2025-06-17 22:22:38,642 - LEXER     - Found range in INTERVAL at position 3 - from <module>:301
+2025-06-17 22:22:38,643 - LEXER     - Found INTERVAL with range - from <module>:301
+2025-06-17 22:22:38,643 - LEX_INFO  - Start generating NEWLINE tokens - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=30, column=1) - from <module>:301
+2025-06-17 22:22:38,643 - LEXER     - Skipping SKIP token: '            ' - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='ID', value='LIGHT', line=30, column=13) - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='DOT', value='.', line=30, column=18) - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='ID', value='ALL', line=30, column=19) - from <module>:301
+2025-06-17 22:22:38,643 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,643 - LEXER     - Converting keyword 'STROBE' to uppercase - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='STROBE', value='STROBE', line=30, column=23) - from <module>:301
+2025-06-17 22:22:38,643 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,643 - LEXER     - Converting keyword 'value' to uppercase - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='VALUE', value='value', line=30, column=30) - from <module>:301
+2025-06-17 22:22:38,643 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='NUMBER', value='0', line=30, column=36) - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=31, column=1) - from <module>:301
+2025-06-17 22:22:38,643 - LEXER     - Skipping SKIP token: '        ' - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='RBRACE', value='}', line=31, column=9) - from <module>:301
+2025-06-17 22:22:38,643 - LEXER     - Detected RBRACE,detecting left braces - from <module>:301
+2025-06-17 22:22:38,643 - LEXER     - Still have LBRACE tokens, keeping keep_newline True - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=32, column=1) - from <module>:301
+2025-06-17 22:22:38,643 - LEXER     - Skipping SKIP token: '        ' - from <module>:301
+2025-06-17 22:22:38,643 - LEXER     - Converting keyword 'INTERVAL' to uppercase - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='INTERVAL', value='INTERVAL', line=32, column=9) - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='LSQUARE', value='[', line=32, column=17) - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='NUMBER', value='3', line=32, column=18) - from <module>:301
+2025-06-17 22:22:38,643 - GENE      - 	Generated token: Token(type='OP', value='-', line=32, column=19) - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='NUMBER', value='4', line=32, column=20) - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='RSQUARE', value=']', line=32, column=21) - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='LBRACE', value='{', line=32, column=22) - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Enter block with LBRACE,detecting INTERVAL-like structure - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Last tokens: [Token(type='INTERVAL', value='INTERVAL', line=32, column=9), Token(type='LSQUARE', value='[', line=32, column=17), Token(type='NUMBER', value='3', line=32, column=18), Token(type='OP', value='-', line=32, column=19), Token(type='NUMBER', value='4', line=32, column=20), Token(type='RSQUARE', value=']', line=32, column=21), Token(type='LBRACE', value='{', line=32, column=22)] - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Found INTERVAL at position 0 - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Found range in INTERVAL at position 3 - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Found INTERVAL with range - from <module>:301
+2025-06-17 22:22:38,644 - LEX_INFO  - Start generating NEWLINE tokens - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=33, column=1) - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Skipping SKIP token: '            ' - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='ID', value='LIGHT', line=33, column=13) - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='DOT', value='.', line=33, column=18) - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='ID', value='R', line=33, column=19) - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Converting keyword 'STROBE' to uppercase - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='STROBE', value='STROBE', line=33, column=21) - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Converting keyword 'value' to uppercase - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='VALUE', value='value', line=33, column=28) - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='NUMBER', value='255', line=33, column=34) - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=34, column=1) - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Skipping SKIP token: '        ' - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='RBRACE', value='}', line=34, column=9) - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Detected RBRACE,detecting left braces - from <module>:301
+2025-06-17 22:22:38,644 - LEXER     - Still have LBRACE tokens, keeping keep_newline True - from <module>:301
+2025-06-17 22:22:38,644 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=35, column=1) - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Skipping SKIP token: '    ' - from <module>:301
+2025-06-17 22:22:38,645 - GENE      - 	Generated token: Token(type='RBRACE', value='}', line=35, column=5) - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Detected RBRACE,detecting left braces - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Still have LBRACE tokens, keeping keep_newline True - from <module>:301
+2025-06-17 22:22:38,645 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=36, column=1) - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Skipping SKIP token: '    ' - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Converting keyword 'OTHERS' to uppercase - from <module>:301
+2025-06-17 22:22:38,645 - GENE      - 	Generated token: Token(type='OTHERS', value='OTHERS', line=36, column=5) - from <module>:301
+2025-06-17 22:22:38,645 - GENE      - 	Generated token: Token(type='LBRACE', value='{', line=36, column=11) - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Enter block with LBRACE,detecting INTERVAL-like structure - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Last tokens: [Token(type='NEWLINE', value='\n', line=34, column=1), Token(type='RBRACE', value='}', line=34, column=9), Token(type='NEWLINE', value='\n', line=35, column=1), Token(type='RBRACE', value='}', line=35, column=5), Token(type='NEWLINE', value='\n', line=36, column=1), Token(type='OTHERS', value='OTHERS', line=36, column=5), Token(type='LBRACE', value='{', line=36, column=11)] - from <module>:301
+2025-06-17 22:22:38,645 - GENE      - 	Generated token: Token(type='ID', value='bypass', line=36, column=12) - from <module>:301
+2025-06-17 22:22:38,645 - GENE      - 	Generated token: Token(type='RBRACE', value='}', line=36, column=18) - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Detected RBRACE,detecting left braces - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Still have LBRACE tokens, keeping keep_newline True - from <module>:301
+2025-06-17 22:22:38,645 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=37, column=1) - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Converting keyword 'CUE' to uppercase - from <module>:301
+2025-06-17 22:22:38,645 - GENE      - 	Generated token: Token(type='CUE', value='CUE', line=37, column=1) - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Skipping SKIP token: ' ' - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Converting keyword 'END' to uppercase - from <module>:301
+2025-06-17 22:22:38,645 - GENE      - 	Generated token: Token(type='END', value='END', line=37, column=5) - from <module>:301
+2025-06-17 22:22:38,645 - GENE      - 	Generated token: Token(type='NEWLINE', value='\n', line=38, column=1) - from <module>:301
+2025-06-17 22:22:38,645 - LEXER     - Skipping SKIP token: '    ' - from <module>:301
+2025-06-17 22:22:38,645 - INFO      - =======================finished lexing, got 169 tokens=========================== - from <module>:302
+2025-06-17 22:22:38,645 - INFO      - Tokens logging is disabled - from <module>:303
+2025-06-17 22:22:38,645 - INFO      - Starting parse with inline=0 - from parse:47
+2025-06-17 22:22:38,645 - CUE_CONS  - 			 Consume ('CUE','CUE') at pos 0 - from <module>:305
+2025-06-17 22:22:38,646 - DEBUG     - Parsing full 'CUE' block - from parse:61
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('ID','cross_back_01') at pos 1 - from <module>:305
+2025-06-17 22:22:38,646 - INFO      - Parsing CUE with name: cross_back_01 - from parse:63
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('START','START') at pos 2 - from <module>:305
+2025-06-17 22:22:38,646 - INFO      - Parsing 'IN' block - from parse_in:106
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('IN','IN') at pos 3 - from <module>:305
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('ID','BPM') at pos 4 - from <module>:305
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('COMMA',',') at pos 5 - from <module>:305
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('ID','RATE') at pos 6 - from <module>:305
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('COMMA',',') at pos 7 - from <module>:305
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('ID','LIGHT') at pos 8 - from <module>:305
+2025-06-17 22:22:38,646 - DEBUG     - IN params: ['BPM', 'RATE', 'LIGHT'] - from parse_in:116
+2025-06-17 22:22:38,646 - INFO      - End of 'IN' block - from parse_in:117
+2025-06-17 22:22:38,646 - INFO      - Parsing 'FUNC' block - from parse_func:121
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('FUNC','FUNC') at pos 9 - from <module>:305
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('ID','wave2') at pos 10 - from <module>:305
+2025-06-17 22:22:38,646 - DEBUG     - Function name: wave2 - from parse_func:124
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('LPAREN','(') at pos 11 - from <module>:305
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('ID','x') at pos 12 - from <module>:305
+2025-06-17 22:22:38,646 - DEBUG     - Function argument: x - from parse_func:127
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('RPAREN',')') at pos 13 - from <module>:305
+2025-06-17 22:22:38,646 - CUE_CONS  - 			 Consume ('OP','=') at pos 14 - from <module>:305
+2025-06-17 22:22:38,646 - DEBUG     - Get token ('INTERVAL','INTERVAL')end function block - from parse_func:135
+2025-06-17 22:22:38,646 - DEBUG     - Function expression: '1-sin(x)' - from parse_func:140
+2025-06-17 22:22:38,646 - INFO      - Building function with sympy: '1-sin(x)' - from build_func_with_sympy:146
+2025-06-17 22:22:38,704 - INFO      - Function '1-sin(x)' built successfully - from build_func_with_sympy:165
+2025-06-17 22:22:38,704 - INFO      - Function 'wave2' parsed successfully - from parse_func:142
+2025-06-17 22:22:38,704 - CUE_CONS  - 			 Consume ('INTERVAL','INTERVAL') at pos 21 - from <module>:305
+2025-06-17 22:22:38,704 - INFO      - Parsing 'INTERVAL' block - from parse_interval:170
+2025-06-17 22:22:38,704 - CUE_CONS  - 			 Consume ('NUMBER','4') at pos 22 - from <module>:305
+2025-06-17 22:22:38,704 - DEBUG     - Interval number: 4 - from parse_interval:172
+2025-06-17 22:22:38,704 - INFO      - End of 'INTERVAL' block - from parse_interval:173
+2025-06-17 22:22:38,704 - INFO      - Parsing 'DIMMER' block - from parse_command_block:177
+2025-06-17 22:22:38,704 - CUE_CONS  - 			 Consume ('DIMMER','DIMMER') at pos 23 - from <module>:305
+2025-06-17 22:22:38,704 - CUE_CONS  - 			 Consume ('LBRACE','{') at pos 24 - from <module>:305
+2025-06-17 22:22:38,704 - INFO      - Parsing 'INTERVAL[...]' block - from parse_interval_block:213
+2025-06-17 22:22:38,704 - CUE_CONS  - 			 Consume ('INTERVAL','INTERVAL') at pos 25 - from <module>:305
+2025-06-17 22:22:38,704 - CUE_CONS  - 			 Consume ('LSQUARE','[') at pos 26 - from <module>:305
+2025-06-17 22:22:38,704 - CUE_CONS  - 			 Consume ('NUMBER','1') at pos 27 - from <module>:305
+2025-06-17 22:22:38,704 - CUE_CONS  - 			 Consume ('OP','-') at pos 28 - from <module>:305
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('NUMBER','4') at pos 29 - from <module>:305
+2025-06-17 22:22:38,705 - DEBUG     - Interval range: 1-4 - from parse_interval_block:221
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('RSQUARE',']') at pos 30 - from <module>:305
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('LBRACE','{') at pos 31 - from <module>:305
+2025-06-17 22:22:38,705 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,705 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=9, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 32 - from <module>:305
+2025-06-17 22:22:38,705 - DEBUG     - Command line items: [] - from parse_command_line:255
+2025-06-17 22:22:38,705 - DEBUG     - Add command: ('cmd', '') - from parse_interval_block:235
+2025-06-17 22:22:38,705 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('ID','LIGHT') at pos 33 - from <module>:305
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('DOT','.') at pos 34 - from <module>:305
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('ID','L') at pos 35 - from <module>:305
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('DIMMER','DIMMER') at pos 36 - from <module>:305
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('FUNC','func') at pos 37 - from <module>:305
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('ID','wave1') at pos 38 - from <module>:305
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('FROM','from') at pos 39 - from <module>:305
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('NUMBER','0') at pos 40 - from <module>:305
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('TO','to') at pos 41 - from <module>:305
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('ID','PI') at pos 42 - from <module>:305
+2025-06-17 22:22:38,705 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=10, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,705 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 43 - from <module>:305
+2025-06-17 22:22:38,705 - DEBUG     - Command line items: ['LIGHT', '.', 'L', 'DIMMER', 'func', 'wave1', 'from', '0', 'to', 'PI'] - from parse_command_line:255
+2025-06-17 22:22:38,705 - DEBUG     - Add command: ('cmd', 'LIGHT . L DIMMER func wave1 from 0 to PI') - from parse_interval_block:235
+2025-06-17 22:22:38,705 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('ID','LIGHT') at pos 44 - from <module>:305
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('DOT','.') at pos 45 - from <module>:305
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('ID','R') at pos 46 - from <module>:305
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('DIMMER','DIMMER') at pos 47 - from <module>:305
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('FUNC','func') at pos 48 - from <module>:305
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('ID','wave2') at pos 49 - from <module>:305
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('FROM','from') at pos 50 - from <module>:305
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('NUMBER','0') at pos 51 - from <module>:305
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('TO','to') at pos 52 - from <module>:305
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('ID','PI') at pos 53 - from <module>:305
+2025-06-17 22:22:38,706 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=11, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 54 - from <module>:305
+2025-06-17 22:22:38,706 - DEBUG     - Command line items: ['LIGHT', '.', 'R', 'DIMMER', 'func', 'wave2', 'from', '0', 'to', 'PI'] - from parse_command_line:255
+2025-06-17 22:22:38,706 - DEBUG     - Add command: ('cmd', 'LIGHT . R DIMMER func wave2 from 0 to PI') - from parse_interval_block:235
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('RBRACE','}') at pos 55 - from <module>:305
+2025-06-17 22:22:38,706 - INFO      - End of 'INTERVAL[1-4]' block with commands: [('cmd', ''), ('cmd', 'LIGHT . L DIMMER func wave1 from 0 to PI'), ('cmd', 'LIGHT . R DIMMER func wave2 from 0 to PI')] - from parse_interval_block:236
+2025-06-17 22:22:38,706 - DEBUG     - Parsed interval block INTERVAL[1-4] with cmds [('cmd', ''), ('cmd', 'LIGHT . L DIMMER func wave1 from 0 to PI'), ('cmd', 'LIGHT . R DIMMER func wave2 from 0 to PI')] - from parse_command_block:196
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('RBRACE','}') at pos 56 - from <module>:305
+2025-06-17 22:22:38,706 - INFO      - End of 'DIMMER' block with content: {'INTERVAL[1-4]': [('cmd', ''), ('cmd', 'LIGHT . L DIMMER func wave1 from 0 to PI'), ('cmd', 'LIGHT . R DIMMER func wave2 from 0 to PI')]} - from parse_command_block:209
+2025-06-17 22:22:38,706 - INFO      - Parsing 'COLOR' block - from parse_command_block:177
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('COLOR','COLOR') at pos 57 - from <module>:305
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('LBRACE','{') at pos 58 - from <module>:305
+2025-06-17 22:22:38,706 - INFO      - Parsing 'INTERVAL[...]' block - from parse_interval_block:213
+2025-06-17 22:22:38,706 - CUE_CONS  - 			 Consume ('INTERVAL','INTERVAL') at pos 59 - from <module>:305
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('LSQUARE','[') at pos 60 - from <module>:305
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('NUMBER','1') at pos 61 - from <module>:305
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('RSQUARE',']') at pos 62 - from <module>:305
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('LBRACE','{') at pos 63 - from <module>:305
+2025-06-17 22:22:38,707 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,707 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=16, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 64 - from <module>:305
+2025-06-17 22:22:38,707 - DEBUG     - Command line items: [] - from parse_command_line:255
+2025-06-17 22:22:38,707 - DEBUG     - Add command: ('cmd', '') - from parse_interval_block:235
+2025-06-17 22:22:38,707 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('ID','LIGHT') at pos 65 - from <module>:305
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('DOT','.') at pos 66 - from <module>:305
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('ID','L') at pos 67 - from <module>:305
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('COLOR','COLOR') at pos 68 - from <module>:305
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('VALUE','value') at pos 69 - from <module>:305
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('STRING','"red_a"') at pos 70 - from <module>:305
+2025-06-17 22:22:38,707 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=17, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 71 - from <module>:305
+2025-06-17 22:22:38,707 - DEBUG     - Command line items: ['LIGHT', '.', 'L', 'COLOR', 'value', '"red_a"'] - from parse_command_line:255
+2025-06-17 22:22:38,707 - DEBUG     - Add command: ('cmd', 'LIGHT . L COLOR value "red_a"') - from parse_interval_block:235
+2025-06-17 22:22:38,707 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('ID','LIGHT') at pos 72 - from <module>:305
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('DOT','.') at pos 73 - from <module>:305
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('ID','R') at pos 74 - from <module>:305
+2025-06-17 22:22:38,707 - CUE_CONS  - 			 Consume ('COLOR','COLOR') at pos 75 - from <module>:305
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('VALUE','value') at pos 76 - from <module>:305
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('STRING','"blue_a"') at pos 77 - from <module>:305
+2025-06-17 22:22:38,708 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=18, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 78 - from <module>:305
+2025-06-17 22:22:38,708 - DEBUG     - Command line items: ['LIGHT', '.', 'R', 'COLOR', 'value', '"blue_a"'] - from parse_command_line:255
+2025-06-17 22:22:38,708 - DEBUG     - Add command: ('cmd', 'LIGHT . R COLOR value "blue_a"') - from parse_interval_block:235
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('RBRACE','}') at pos 79 - from <module>:305
+2025-06-17 22:22:38,708 - INFO      - End of 'INTERVAL[1-1]' block with commands: [('cmd', ''), ('cmd', 'LIGHT . L COLOR value "red_a"'), ('cmd', 'LIGHT . R COLOR value "blue_a"')] - from parse_interval_block:236
+2025-06-17 22:22:38,708 - DEBUG     - Parsed interval block INTERVAL[1-1] with cmds [('cmd', ''), ('cmd', 'LIGHT . L COLOR value "red_a"'), ('cmd', 'LIGHT . R COLOR value "blue_a"')] - from parse_command_block:196
+2025-06-17 22:22:38,708 - INFO      - Parsing 'INTERVAL[...]' block - from parse_interval_block:213
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('INTERVAL','INTERVAL') at pos 80 - from <module>:305
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('LSQUARE','[') at pos 81 - from <module>:305
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('NUMBER','2') at pos 82 - from <module>:305
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('RSQUARE',']') at pos 83 - from <module>:305
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('LBRACE','{') at pos 84 - from <module>:305
+2025-06-17 22:22:38,708 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,708 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=20, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 85 - from <module>:305
+2025-06-17 22:22:38,708 - DEBUG     - Command line items: [] - from parse_command_line:255
+2025-06-17 22:22:38,708 - DEBUG     - Add command: ('cmd', '') - from parse_interval_block:235
+2025-06-17 22:22:38,708 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('ID','LIGHT') at pos 86 - from <module>:305
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('DOT','.') at pos 87 - from <module>:305
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('ID','L') at pos 88 - from <module>:305
+2025-06-17 22:22:38,708 - CUE_CONS  - 			 Consume ('COLOR','COLOR') at pos 89 - from <module>:305
+2025-06-17 22:22:38,709 - CUE_CONS  - 			 Consume ('VALUE','value') at pos 90 - from <module>:305
+2025-06-17 22:22:38,709 - CUE_CONS  - 			 Consume ('STRING','"blue_a"') at pos 91 - from <module>:305
+2025-06-17 22:22:38,709 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=21, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,709 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 92 - from <module>:305
+2025-06-17 22:22:38,709 - DEBUG     - Command line items: ['LIGHT', '.', 'L', 'COLOR', 'value', '"blue_a"'] - from parse_command_line:255
+2025-06-17 22:22:38,709 - DEBUG     - Add command: ('cmd', 'LIGHT . L COLOR value "blue_a"') - from parse_interval_block:235
+2025-06-17 22:22:38,709 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,709 - CUE_CONS  - 			 Consume ('ID','LIGHT') at pos 93 - from <module>:305
+2025-06-17 22:22:38,709 - CUE_CONS  - 			 Consume ('DOT','.') at pos 94 - from <module>:305
+2025-06-17 22:22:38,709 - CUE_CONS  - 			 Consume ('ID','R') at pos 95 - from <module>:305
+2025-06-17 22:22:38,709 - CUE_CONS  - 			 Consume ('COLOR','COLOR') at pos 96 - from <module>:305
+2025-06-17 22:22:38,709 - CUE_CONS  - 			 Consume ('VALUE','value') at pos 97 - from <module>:305
+2025-06-17 22:22:38,709 - CUE_CONS  - 			 Consume ('STRING','"red_a"') at pos 98 - from <module>:305
+2025-06-17 22:22:38,710 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=22, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,710 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 99 - from <module>:305
+2025-06-17 22:22:38,710 - DEBUG     - Command line items: ['LIGHT', '.', 'R', 'COLOR', 'value', '"red_a"'] - from parse_command_line:255
+2025-06-17 22:22:38,710 - DEBUG     - Add command: ('cmd', 'LIGHT . R COLOR value "red_a"') - from parse_interval_block:235
+2025-06-17 22:22:38,710 - CUE_CONS  - 			 Consume ('RBRACE','}') at pos 100 - from <module>:305
+2025-06-17 22:22:38,710 - INFO      - End of 'INTERVAL[2-2]' block with commands: [('cmd', ''), ('cmd', 'LIGHT . L COLOR value "blue_a"'), ('cmd', 'LIGHT . R COLOR value "red_a"')] - from parse_interval_block:236
+2025-06-17 22:22:38,710 - DEBUG     - Parsed interval block INTERVAL[2-2] with cmds [('cmd', ''), ('cmd', 'LIGHT . L COLOR value "blue_a"'), ('cmd', 'LIGHT . R COLOR value "red_a"')] - from parse_command_block:196
+2025-06-17 22:22:38,710 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 101 - from <module>:305
+2025-06-17 22:22:38,710 - INFO      - Parsing 'INTERVAL[...]' block - from parse_interval_block:213
+2025-06-17 22:22:38,710 - CUE_CONS  - 			 Consume ('INTERVAL','INTERVAL') at pos 102 - from <module>:305
+2025-06-17 22:22:38,710 - CUE_CONS  - 			 Consume ('LSQUARE','[') at pos 103 - from <module>:305
+2025-06-17 22:22:38,710 - CUE_CONS  - 			 Consume ('NUMBER','3') at pos 104 - from <module>:305
+2025-06-17 22:22:38,711 - CUE_CONS  - 			 Consume ('OP','-') at pos 105 - from <module>:305
+2025-06-17 22:22:38,711 - CUE_CONS  - 			 Consume ('NUMBER','4') at pos 106 - from <module>:305
+2025-06-17 22:22:38,711 - DEBUG     - Interval range: 3-4 - from parse_interval_block:221
+2025-06-17 22:22:38,711 - CUE_CONS  - 			 Consume ('RSQUARE',']') at pos 107 - from <module>:305
+2025-06-17 22:22:38,711 - CUE_CONS  - 			 Consume ('LBRACE','{') at pos 108 - from <module>:305
+2025-06-17 22:22:38,711 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,711 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=24, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,711 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 109 - from <module>:305
+2025-06-17 22:22:38,711 - DEBUG     - Command line items: [] - from parse_command_line:255
+2025-06-17 22:22:38,711 - DEBUG     - Add command: ('cmd', '') - from parse_interval_block:235
+2025-06-17 22:22:38,712 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,712 - CUE_CONS  - 			 Consume ('ID','LIGHT') at pos 110 - from <module>:305
+2025-06-17 22:22:38,712 - CUE_CONS  - 			 Consume ('DOT','.') at pos 111 - from <module>:305
+2025-06-17 22:22:38,712 - CUE_CONS  - 			 Consume ('ID','ALL') at pos 112 - from <module>:305
+2025-06-17 22:22:38,712 - CUE_CONS  - 			 Consume ('COLOR','COLOR') at pos 113 - from <module>:305
+2025-06-17 22:22:38,712 - CUE_CONS  - 			 Consume ('VALUE','value') at pos 114 - from <module>:305
+2025-06-17 22:22:38,712 - CUE_CONS  - 			 Consume ('STRING','"green_a"') at pos 115 - from <module>:305
+2025-06-17 22:22:38,712 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=25, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,712 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 116 - from <module>:305
+2025-06-17 22:22:38,712 - DEBUG     - Command line items: ['LIGHT', '.', 'ALL', 'COLOR', 'value', '"green_a"'] - from parse_command_line:255
+2025-06-17 22:22:38,712 - DEBUG     - Add command: ('cmd', 'LIGHT . ALL COLOR value "green_a"') - from parse_interval_block:235
+2025-06-17 22:22:38,712 - CUE_CONS  - 			 Consume ('RBRACE','}') at pos 117 - from <module>:305
+2025-06-17 22:22:38,712 - INFO      - End of 'INTERVAL[3-4]' block with commands: [('cmd', ''), ('cmd', 'LIGHT . ALL COLOR value "green_a"')] - from parse_interval_block:236
+2025-06-17 22:22:38,713 - DEBUG     - Parsed interval block INTERVAL[3-4] with cmds [('cmd', ''), ('cmd', 'LIGHT . ALL COLOR value "green_a"')] - from parse_command_block:196
+2025-06-17 22:22:38,713 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 118 - from <module>:305
+2025-06-17 22:22:38,713 - CUE_CONS  - 			 Consume ('RBRACE','}') at pos 119 - from <module>:305
+2025-06-17 22:22:38,713 - INFO      - End of 'COLOR' block with content: {'INTERVAL[1-1]': [('cmd', ''), ('cmd', 'LIGHT . L COLOR value "red_a"'), ('cmd', 'LIGHT . R COLOR value "blue_a"')], 'INTERVAL[2-2]': [('cmd', ''), ('cmd', 'LIGHT . L COLOR value "blue_a"'), ('cmd', 'LIGHT . R COLOR value "red_a"')], 'INTERVAL[3-4]': [('cmd', ''), ('cmd', 'LIGHT . ALL COLOR value "green_a"')]} - from parse_command_block:209
+2025-06-17 22:22:38,713 - DEBUG     - Skipping 'NEWLINE' token - from parse_block:98
+2025-06-17 22:22:38,713 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 120 - from <module>:305
+2025-06-17 22:22:38,713 - DEBUG     - Skipping 'NEWLINE' token - from parse_block:98
+2025-06-17 22:22:38,713 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 121 - from <module>:305
+2025-06-17 22:22:38,713 - INFO      - Parsing 'STROBE' block - from parse_command_block:177
+2025-06-17 22:22:38,713 - CUE_CONS  - 			 Consume ('STROBE','STROBE') at pos 122 - from <module>:305
+2025-06-17 22:22:38,713 - CUE_CONS  - 			 Consume ('LBRACE','{') at pos 123 - from <module>:305
+2025-06-17 22:22:38,713 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 124 - from <module>:305
+2025-06-17 22:22:38,713 - INFO      - Parsing 'INTERVAL[...]' block - from parse_interval_block:213
+2025-06-17 22:22:38,714 - CUE_CONS  - 			 Consume ('INTERVAL','INTERVAL') at pos 125 - from <module>:305
+2025-06-17 22:22:38,714 - CUE_CONS  - 			 Consume ('LSQUARE','[') at pos 126 - from <module>:305
+2025-06-17 22:22:38,714 - CUE_CONS  - 			 Consume ('NUMBER','1') at pos 127 - from <module>:305
+2025-06-17 22:22:38,714 - CUE_CONS  - 			 Consume ('OP','-') at pos 128 - from <module>:305
+2025-06-17 22:22:38,714 - CUE_CONS  - 			 Consume ('NUMBER','2') at pos 129 - from <module>:305
+2025-06-17 22:22:38,714 - DEBUG     - Interval range: 1-2 - from parse_interval_block:221
+2025-06-17 22:22:38,714 - CUE_CONS  - 			 Consume ('RSQUARE',']') at pos 130 - from <module>:305
+2025-06-17 22:22:38,714 - CUE_CONS  - 			 Consume ('LBRACE','{') at pos 131 - from <module>:305
+2025-06-17 22:22:38,714 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,714 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=30, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,714 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 132 - from <module>:305
+2025-06-17 22:22:38,714 - DEBUG     - Command line items: [] - from parse_command_line:255
+2025-06-17 22:22:38,714 - DEBUG     - Add command: ('cmd', '') - from parse_interval_block:235
+2025-06-17 22:22:38,714 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,714 - CUE_CONS  - 			 Consume ('ID','LIGHT') at pos 133 - from <module>:305
+2025-06-17 22:22:38,715 - CUE_CONS  - 			 Consume ('DOT','.') at pos 134 - from <module>:305
+2025-06-17 22:22:38,715 - CUE_CONS  - 			 Consume ('ID','ALL') at pos 135 - from <module>:305
+2025-06-17 22:22:38,715 - CUE_CONS  - 			 Consume ('STROBE','STROBE') at pos 136 - from <module>:305
+2025-06-17 22:22:38,715 - CUE_CONS  - 			 Consume ('VALUE','value') at pos 137 - from <module>:305
+2025-06-17 22:22:38,715 - CUE_CONS  - 			 Consume ('NUMBER','0') at pos 138 - from <module>:305
+2025-06-17 22:22:38,715 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=31, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,715 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 139 - from <module>:305
+2025-06-17 22:22:38,715 - DEBUG     - Command line items: ['LIGHT', '.', 'ALL', 'STROBE', 'value', '0'] - from parse_command_line:255
+2025-06-17 22:22:38,715 - DEBUG     - Add command: ('cmd', 'LIGHT . ALL STROBE value 0') - from parse_interval_block:235
+2025-06-17 22:22:38,715 - CUE_CONS  - 			 Consume ('RBRACE','}') at pos 140 - from <module>:305
+2025-06-17 22:22:38,716 - INFO      - End of 'INTERVAL[1-2]' block with commands: [('cmd', ''), ('cmd', 'LIGHT . ALL STROBE value 0')] - from parse_interval_block:236
+2025-06-17 22:22:38,716 - DEBUG     - Parsed interval block INTERVAL[1-2] with cmds [('cmd', ''), ('cmd', 'LIGHT . ALL STROBE value 0')] - from parse_command_block:196
+2025-06-17 22:22:38,716 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 141 - from <module>:305
+2025-06-17 22:22:38,716 - INFO      - Parsing 'INTERVAL[...]' block - from parse_interval_block:213
+2025-06-17 22:22:38,716 - CUE_CONS  - 			 Consume ('INTERVAL','INTERVAL') at pos 142 - from <module>:305
+2025-06-17 22:22:38,716 - CUE_CONS  - 			 Consume ('LSQUARE','[') at pos 143 - from <module>:305
+2025-06-17 22:22:38,716 - CUE_CONS  - 			 Consume ('NUMBER','3') at pos 144 - from <module>:305
+2025-06-17 22:22:38,716 - CUE_CONS  - 			 Consume ('OP','-') at pos 145 - from <module>:305
+2025-06-17 22:22:38,716 - CUE_CONS  - 			 Consume ('NUMBER','4') at pos 146 - from <module>:305
+2025-06-17 22:22:38,716 - DEBUG     - Interval range: 3-4 - from parse_interval_block:221
+2025-06-17 22:22:38,716 - CUE_CONS  - 			 Consume ('RSQUARE',']') at pos 147 - from <module>:305
+2025-06-17 22:22:38,716 - CUE_CONS  - 			 Consume ('LBRACE','{') at pos 148 - from <module>:305
+2025-06-17 22:22:38,717 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,717 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=33, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,717 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 149 - from <module>:305
+2025-06-17 22:22:38,717 - DEBUG     - Command line items: [] - from parse_command_line:255
+2025-06-17 22:22:38,717 - DEBUG     - Add command: ('cmd', '') - from parse_interval_block:235
+2025-06-17 22:22:38,717 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,717 - CUE_CONS  - 			 Consume ('ID','LIGHT') at pos 150 - from <module>:305
+2025-06-17 22:22:38,717 - CUE_CONS  - 			 Consume ('DOT','.') at pos 151 - from <module>:305
+2025-06-17 22:22:38,717 - CUE_CONS  - 			 Consume ('ID','R') at pos 152 - from <module>:305
+2025-06-17 22:22:38,717 - CUE_CONS  - 			 Consume ('STROBE','STROBE') at pos 153 - from <module>:305
+2025-06-17 22:22:38,717 - CUE_CONS  - 			 Consume ('VALUE','value') at pos 154 - from <module>:305
+2025-06-17 22:22:38,717 - CUE_CONS  - 			 Consume ('NUMBER','255') at pos 155 - from <module>:305
+2025-06-17 22:22:38,718 - DEBUG     - End of command line with token: Token(type='NEWLINE', value='\n', line=34, column=1) - from parse_command_line:246
+2025-06-17 22:22:38,718 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 156 - from <module>:305
+2025-06-17 22:22:38,718 - DEBUG     - Command line items: ['LIGHT', '.', 'R', 'STROBE', 'value', '255'] - from parse_command_line:255
+2025-06-17 22:22:38,718 - DEBUG     - Add command: ('cmd', 'LIGHT . R STROBE value 255') - from parse_interval_block:235
+2025-06-17 22:22:38,718 - CUE_CONS  - 			 Consume ('RBRACE','}') at pos 157 - from <module>:305
+2025-06-17 22:22:38,718 - INFO      - End of 'INTERVAL[3-4]' block with commands: [('cmd', ''), ('cmd', 'LIGHT . R STROBE value 255')] - from parse_interval_block:236
+2025-06-17 22:22:38,718 - DEBUG     - Parsed interval block INTERVAL[3-4] with cmds [('cmd', ''), ('cmd', 'LIGHT . R STROBE value 255')] - from parse_command_block:196
+2025-06-17 22:22:38,718 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 158 - from <module>:305
+2025-06-17 22:22:38,718 - CUE_CONS  - 			 Consume ('RBRACE','}') at pos 159 - from <module>:305
+2025-06-17 22:22:38,718 - INFO      - End of 'STROBE' block with content: {'INTERVAL[1-2]': [('cmd', ''), ('cmd', 'LIGHT . ALL STROBE value 0')], 'INTERVAL[3-4]': [('cmd', ''), ('cmd', 'LIGHT . R STROBE value 255')]} - from parse_command_block:209
+2025-06-17 22:22:38,718 - DEBUG     - Skipping 'NEWLINE' token - from parse_block:98
+2025-06-17 22:22:38,718 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 160 - from <module>:305
+2025-06-17 22:22:38,718 - INFO      - Parsing 'OTHERS' block - from parse_command_block:177
+2025-06-17 22:22:38,718 - CUE_CONS  - 			 Consume ('OTHERS','OTHERS') at pos 161 - from <module>:305
+2025-06-17 22:22:38,718 - CUE_CONS  - 			 Consume ('LBRACE','{') at pos 162 - from <module>:305
+2025-06-17 22:22:38,718 - INFO      - Parsing command line - from parse_command_line:240
+2025-06-17 22:22:38,718 - CUE_CONS  - 			 Consume ('ID','bypass') at pos 163 - from <module>:305
+2025-06-17 22:22:38,719 - DEBUG     - End of command line with token: Token(type='RBRACE', value='}', line=36, column=18) - from parse_command_line:246
+2025-06-17 22:22:38,719 - CUE_CONS  - 			 Consume ('RBRACE','}') at pos 164 - from <module>:305
+2025-06-17 22:22:38,719 - DEBUG     - Command line items: ['bypass'] - from parse_command_line:255
+2025-06-17 22:22:38,719 - DEBUG     - Add OTHERS command: ('cmd', 'bypass') - from parse_command_block:200
+2025-06-17 22:22:38,719 - INFO      - End of 'OTHERS' block with content: {'OTHERS': 'bypass'} - from parse_command_block:209
+2025-06-17 22:22:38,719 - DEBUG     - Skipping 'NEWLINE' token - from parse_block:98
+2025-06-17 22:22:38,719 - CUE_CONS  - 			 Consume ('NEWLINE','\n') at pos 165 - from <module>:305
+2025-06-17 22:22:38,719 - DEBUG     - Detect 'CUE' 'END' and end 'CUE' block - from parse_block:85
+2025-06-17 22:22:38,719 - CUE_CONS  - 			 Consume ('CUE','CUE') at pos 166 - from <module>:305
+2025-06-17 22:22:38,719 - CUE_CONS  - 			 Consume ('END','END') at pos 167 - from <module>:305
+2025-06-17 22:22:38,719 - INFO      - End of 'CUE' block - from parse:68
+2025-06-17 22:22:38,726 - INFO      - Parsing completed successfully - from <module>:309
+2025-06-17 22:22:38,726 - INFO      - Parsed CUE structure: - from <module>:310
+2025-06-17 22:22:38,727 - INFO      - {'CUE': {'body': {'COLOR': {'INTERVAL[1-1]': [('cmd', ''),
+                                              ('cmd',
+                                               'LIGHT . L COLOR value "red_a"'),
+                                              ('cmd',
+                                               'LIGHT . R COLOR value '
+                                               '"blue_a"')],
+                            'INTERVAL[2-2]': [('cmd', ''),
+                                              ('cmd',
+                                               'LIGHT . L COLOR value '
+                                               '"blue_a"'),
+                                              ('cmd',
+                                               'LIGHT . R COLOR value '
+                                               '"red_a"')],
+                            'INTERVAL[3-4]': [('cmd', ''),
+                                              ('cmd',
+                                               'LIGHT . ALL COLOR value '
+                                               '"green_a"')]},
+                  'DIMMER': {'INTERVAL[1-4]': [('cmd', ''),
+                                               ('cmd',
+                                                'LIGHT . L DIMMER func wave1 '
+                                                'from 0 to PI'),
+                                               ('cmd',
+                                                'LIGHT . R DIMMER func wave2 '
+                                                'from 0 to PI')]},
+                  'FUNC': {'wave2': <function _lambdifygenerated at 0x0000028BED233740>},
+                  'IN': ['BPM', 'RATE', 'LIGHT'],
+                  'INTERVAL': 4,
+                  'OTHERS': {'OTHERS': 'bypass'},
+                  'STROBE': {'INTERVAL[1-2]': [('cmd', ''),
+                                               ('cmd',
+                                                'LIGHT . ALL STROBE value 0')],
+                             'INTERVAL[3-4]': [('cmd', ''),
+                                               ('cmd',
+                                                'LIGHT . R STROBE value '
+                                                '255')]}},
+         'name': 'cross_back_01'}} - from <module>:311
